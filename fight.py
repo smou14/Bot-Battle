@@ -1,12 +1,12 @@
 from time import sleep
 
 from MyBot import MyBot
-from attacker import Attacker
+from AllwaysDefect import AllwaysDefect
 
 good = "cooperate"
 bad = "defect"
 bot1 = MyBot()
-bot2 = Attacker()
+bot2 = AllwaysDefect()
 # Print initial information about each bot
 print(bot1.name + " | " + bot1.description + " | " + bot1.defaultAction)
 print(bot2.name + " | " + bot2.description + " | " + bot2.defaultAction)
