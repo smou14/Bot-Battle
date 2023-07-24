@@ -1,5 +1,6 @@
 from time import sleep
 
+#change this if you want to
 from MyBot import MyBot
 from AllwaysDefect import AllwaysDefect
 
@@ -7,14 +8,14 @@ good = "cooperate"
 bad = "defect"
 bot1 = MyBot()
 bot2 = AllwaysDefect()
-# Print initial information about each bot
+
 print(bot1.name + " | " + bot1.description + " | " + bot1.defaultAction)
 print(bot2.name + " | " + bot2.description + " | " + bot2.defaultAction)
 
 #adds the scores.
 def evaluate(action1, action2):
     if action1 == good and action2 == good:
-        bot1.score += 2
+        bot1.score += 2# Print initial information about each bot
         bot2.score += 2
     elif action1 == bad and action2 == good:
         bot1.score += 3
