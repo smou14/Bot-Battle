@@ -3,17 +3,17 @@ class Attacker:
     # Change the strings to whatever you want.
     def __init__(self):
         self.name = "Attacker"
-        self.description = "This bot allways attacks."
-        self.defaultAction = "attack"
+        self.description = "This bot allways defects."
+        self.defaultAction = "defect"
         self.action = self.defaultAction
         self.score = 0
 
-    def attack(self):
-        self.action = "attack"
+    def defect(self):
+        self.action = "defect"
 
-    def defend(self):
-        self.action = "defend"
+    def cooperate(self):
+        self.action = "cooperate"
 
     # Keep this func please, you can change the logic though.
     def respond(self, opposingAction):
-        self.attack()
+        self.defect()
