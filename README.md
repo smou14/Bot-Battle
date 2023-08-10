@@ -1,7 +1,7 @@
 # Bot-Battle
-A simulation of the Iterated Prisoners Dilemma in python. Make you own bots and make them battle.
+A simulation of the Iterated Prisoners Dilemma in python. Make your own bots and make them battle.
 
-Run the fight.py script in a terminal.
+Run the fight.py script in a terminal. Using python3 fight.py
 
 MyBot.py is your own bot to change.
 
